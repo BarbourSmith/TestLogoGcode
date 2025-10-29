@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "TestLogoGcode",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "f8dee22c-2a7d-4980-86b8-84e1975fa7ea",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
