@@ -7,13 +7,11 @@
   "ioValues": [
     {
       "name": "Wood Thickness",
-      "ioValue": 11,
-      "currentEquation": "11"
+      "ioValue": 11
     },
     {
       "name": "Router Bit Size (mm)",
-      "ioValue": 6.35,
-      "currentEquation": "6.35"
+      "ioValue": 6.35
     }
   ],
   "topLevel": true,
@@ -27,6 +25,132 @@
       "ioValues": []
     },
     {
+      "atomType": "Input",
+      "name": "Wood Thickness",
+      "x": 0.029699999999999997,
+      "y": 0.18,
+      "uniqueID": "259bd79d-0c1a-4287-b261-407bf68f5514",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.53505291005291,
+      "y": 0.44011142061281333,
+      "uniqueID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 11
+        }
+      ]
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.6898148148148149,
+      "y": 0.7910863509749304,
+      "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Logo"
+        }
+      ],
+      "partName": "TestLogoGcode",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Input",
+      "name": "Router Bit Size (mm)",
+      "x": 0.029699999999999997,
+      "y": 0.27,
+      "uniqueID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Assembly",
+      "name": "Assembly",
+      "x": 0.826058201058201,
+      "y": 0.4094707520891365,
+      "uniqueID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "extrude-f56d8848-20-{\"geometry\":\"import-svg-0e9f2754\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\"}-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": [],
+                "dimension": "3D"
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ]
+    },
+    {
       "atomType": "GitHubMolecule",
       "name": "Maslow-M",
       "x": 0.35780423280423285,
@@ -35,8 +159,7 @@
       "ioValues": [
         {
           "name": "Size",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ],
       "topLevel": false,
@@ -223,164 +346,9 @@
       "unitsKey": "MM",
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Input",
-      "name": "Wood Thickness",
-      "x": 0.029699999999999997,
-      "y": 0.40111420612813375,
-      "uniqueID": "259bd79d-0c1a-4287-b261-407bf68f5514",
-      "ioValues": [],
-      "type": "number"
-    },
-    {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.53505291005291,
-      "y": 0.44011142061281333,
-      "uniqueID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 11
-        }
-      ]
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.6937830687830687,
-      "y": 0.7855153203342619,
-      "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "TestLogoGcode"
-        }
-      ],
-      "partName": "TestLogoGcode",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Input",
-      "name": "Router Bit Size (mm)",
-      "x": 0.029699999999999997,
-      "y": 0.6713091922005571,
-      "uniqueID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
-      "ioValues": [],
-      "type": "number"
-    },
-    {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.826058201058201,
-      "y": 0.4094707520891365,
-      "uniqueID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "gcode-vis-868c0c00",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D"
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "extrude-f56d8848-20-{\"geometry\":\"import-svg-0e9f2754\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\"}-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": [],
-                "dimension": "3D"
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        }
-      ]
     }
   ],
   "allConnectors": [
-    {
-      "ap1Name": "geometry or number",
-      "ap2Name": "geometry",
-      "ap1ID": "50034168-b3b7-4df2-a2e7-513298d81313",
-      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
-    },
     {
       "ap1Name": "number or geometry",
       "ap2Name": "height",
@@ -416,6 +384,12 @@
       "ap2Name": "number or geometry",
       "ap1ID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
       "ap2ID": "8bc60f85-e6fb-4dae-824a-0d9ae8189539"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "50034168-b3b7-4df2-a2e7-513298d81313",
+      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
     }
   ],
   "unitsKey": "MM",
