@@ -4,7 +4,18 @@
   "x": 0,
   "y": 0,
   "uniqueID": "f8dee22c-2a7d-4980-86b8-84e1975fa7ea",
-  "ioValues": [],
+  "ioValues": [
+    {
+      "name": "Wood Thickness",
+      "ioValue": 11,
+      "currentEquation": "11"
+    },
+    {
+      "name": "Router Bit Size (mm)",
+      "ioValue": 6.35,
+      "currentEquation": "6.35"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -18,13 +29,14 @@
     {
       "atomType": "GitHubMolecule",
       "name": "Maslow-M",
-      "x": 0.4642857142857143,
-      "y": 0.6155988857938719,
-      "uniqueID": "c5b89b62-129f-4883-b753-6eb0a89d0fb6",
+      "x": 0.35780423280423285,
+      "y": 0.21727019498607245,
+      "uniqueID": "50034168-b3b7-4df2-a2e7-513298d81313",
       "ioValues": [
         {
           "name": "Size",
-          "ioValue": 10
+          "ioValue": 20,
+          "currentEquation": "20"
         }
       ],
       "topLevel": false,
@@ -34,38 +46,40 @@
           "name": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "f96cc7cd-3ad5-495c-b0b3-3e3d2eff87d4",
+          "uniqueID": "5c89c470-ecb3-41db-91b7-9f08538ff09b",
           "ioValues": []
-        },
-        {
-          "atomType": "Import",
-          "name": "Import",
-          "x": 0.2923280423280423,
-          "y": 0.4162011173184358,
-          "uniqueID": "edf9cbf5-3b7e-47ec-b416-2315109d0f34",
-          "ioValues": [],
-          "fileName": "MakerCAM Project.svg",
-          "type": "SVG"
         },
         {
           "atomType": "Input",
           "name": "Size",
           "x": 0.029699999999999997,
           "y": 0.18,
-          "uniqueID": "67b4dfd5-5cf0-481a-aad0-efffb3f086a6",
+          "uniqueID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
           "ioValues": [],
           "type": "number"
         },
         {
+          "atomType": "Import",
+          "name": "Import",
+          "x": 0.39087301587301587,
+          "y": 0.7186629526462396,
+          "uniqueID": "34219f4e-7377-45a1-8922-bbdbcf208750",
+          "ioValues": [],
+          "fileName": "MakerCAM Project_copy1.svg",
+          "type": "SVG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Maslow-M"
+        },
+        {
           "atomType": "GitHubMolecule",
           "name": "Scale",
-          "x": 0.5687830687830687,
-          "y": 0.5865921787709497,
-          "uniqueID": "3fa5cfa0-c987-4143-a58a-37c0195b0300",
+          "x": 0.5601851851851851,
+          "y": 0.5515320334261838,
+          "uniqueID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861",
           "ioValues": [
             {
               "name": "Scale Factor",
-              "ioValue": 10
+              "ioValue": 20
             }
           ],
           "topLevel": false,
@@ -75,7 +89,7 @@
               "name": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "0eb907da-3c75-41c7-b282-525446a180d8",
+              "uniqueID": "c37993aa-104b-4710-a5ac-34aec850c933",
               "ioValues": []
             },
             {
@@ -83,7 +97,7 @@
               "name": "Geometry",
               "x": 0.029699999999999997,
               "y": 0.18,
-              "uniqueID": "eecbbb63-0282-4742-aa6e-01016ecedd95",
+              "uniqueID": "818de59c-fdfa-4b62-94f8-58bab730928d",
               "ioValues": [],
               "type": "number"
             },
@@ -92,7 +106,7 @@
               "name": "Scale Factor",
               "x": 0.029699999999999997,
               "y": 0.27,
-              "uniqueID": "eabffd0e-89b8-4f16-95d0-1e7231c2aeb5",
+              "uniqueID": "757743ea-ca6c-4874-b73c-9dc24ad63318",
               "ioValues": [],
               "type": "number"
             },
@@ -101,11 +115,11 @@
               "name": "Code",
               "x": 0.4226190476190476,
               "y": 0.25139664804469275,
-              "uniqueID": "7214b0e2-46b7-41e5-8dcb-cee4725fc5a6",
+              "uniqueID": "2893255c-8a4b-4571-8c4c-701ecc749648",
               "ioValues": [
                 {
                   "name": "scaleFactor",
-                  "ioValue": 10
+                  "ioValue": 20
                 }
               ],
               "codeVersion": 1,
@@ -116,20 +130,20 @@
             {
               "ap1Name": "number or geometry",
               "ap2Name": "inputShape",
-              "ap1ID": "eecbbb63-0282-4742-aa6e-01016ecedd95",
-              "ap2ID": "7214b0e2-46b7-41e5-8dcb-cee4725fc5a6"
+              "ap1ID": "818de59c-fdfa-4b62-94f8-58bab730928d",
+              "ap2ID": "2893255c-8a4b-4571-8c4c-701ecc749648"
             },
             {
               "ap1Name": "number or geometry",
               "ap2Name": "scaleFactor",
-              "ap1ID": "eabffd0e-89b8-4f16-95d0-1e7231c2aeb5",
-              "ap2ID": "7214b0e2-46b7-41e5-8dcb-cee4725fc5a6"
+              "ap1ID": "757743ea-ca6c-4874-b73c-9dc24ad63318",
+              "ap2ID": "2893255c-8a4b-4571-8c4c-701ecc749648"
             },
             {
               "ap1Name": "output",
               "ap2Name": "number or geometry",
-              "ap1ID": "7214b0e2-46b7-41e5-8dcb-cee4725fc5a6",
-              "ap2ID": "0eb907da-3c75-41c7-b282-525446a180d8"
+              "ap1ID": "2893255c-8a4b-4571-8c4c-701ecc749648",
+              "ap2ID": "c37993aa-104b-4710-a5ac-34aec850c933"
             }
           ],
           "parentRepo": {
@@ -160,22 +174,22 @@
       ],
       "allConnectors": [
         {
-          "ap1Name": "output",
-          "ap2Name": "Geometry",
-          "ap1ID": "edf9cbf5-3b7e-47ec-b416-2315109d0f34",
-          "ap2ID": "3fa5cfa0-c987-4143-a58a-37c0195b0300"
-        },
-        {
           "ap1Name": "number or geometry",
           "ap2Name": "Scale Factor",
-          "ap1ID": "67b4dfd5-5cf0-481a-aad0-efffb3f086a6",
-          "ap2ID": "3fa5cfa0-c987-4143-a58a-37c0195b0300"
+          "ap1ID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
+          "ap2ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861"
+        },
+        {
+          "ap1Name": "output",
+          "ap2Name": "Geometry",
+          "ap1ID": "34219f4e-7377-45a1-8922-bbdbcf208750",
+          "ap2ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861"
         },
         {
           "ap1Name": "geometry or number",
           "ap2Name": "number or geometry",
-          "ap1ID": "3fa5cfa0-c987-4143-a58a-37c0195b0300",
-          "ap2ID": "f96cc7cd-3ad5-495c-b0b3-3e3d2eff87d4"
+          "ap1ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861",
+          "ap2ID": "5c89c470-ecb3-41db-91b7-9f08538ff09b"
         }
       ],
       "parentRepo": {
@@ -208,28 +222,101 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1,
-      "compiledBom": {}
+      "compiledBom": []
     },
     {
-      "atomType": "Circle",
-      "name": "Circle",
-      "x": 0.8267195767195767,
-      "y": 0.5013927576601671,
-      "uniqueID": "4fee40ca-4086-4c94-9e3a-432f79e96316",
+      "atomType": "Input",
+      "name": "Wood Thickness",
+      "x": 0.029699999999999997,
+      "y": 0.40111420612813375,
+      "uniqueID": "259bd79d-0c1a-4287-b261-407bf68f5514",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.53505291005291,
+      "y": 0.44011142061281333,
+      "uniqueID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
       "ioValues": [
         {
-          "name": "diameter",
-          "ioValue": 10
+          "name": "height",
+          "ioValue": 11
         }
       ]
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.6931216931216931,
+      "y": 0.777158774373259,
+      "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "TestLogoGcode"
+        }
+      ],
+      "partName": "TestLogoGcode",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Input",
+      "name": "Router Bit Size (mm)",
+      "x": 0.029699999999999997,
+      "y": 0.6713091922005571,
+      "uniqueID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
+      "ioValues": [],
+      "type": "number"
     }
   ],
   "allConnectors": [
     {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "50034168-b3b7-4df2-a2e7-513298d81313",
+      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "height",
+      "ap1ID": "259bd79d-0c1a-4287-b261-407bf68f5514",
+      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
+    },
+    {
       "ap1Name": "geometry",
       "ap2Name": "number or geometry",
-      "ap1ID": "4fee40ca-4086-4c94-9e3a-432f79e96316",
+      "ap1ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
       "ap2ID": "8bc60f85-e6fb-4dae-824a-0d9ae8189539"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
+      "ap2ID": "7b7c4b82-2058-4386-84cc-709bf16334d4"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "Tool Size",
+      "ap1ID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
+      "ap2ID": "7b7c4b82-2058-4386-84cc-709bf16334d4"
     }
   ],
   "unitsKey": "MM",
