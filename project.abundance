@@ -95,7 +95,30 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "gcode-vis-08c0ac94",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
         },
         {
           "name": "Shape 2",
