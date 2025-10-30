@@ -49,8 +49,8 @@
     {
       "atomType": "Gcode",
       "name": "Gcode",
-      "x": 0.6845238095238095,
-      "y": 0.8022284122562675,
+      "x": 0.6858465608465608,
+      "y": 0.7994428969359332,
       "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
       "ioValues": [
         {
@@ -95,7 +95,30 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": "gcode-vis-e4e77d04",
+            "tags": [],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "bom": [],
+            "dimension": "3D"
+          }
         },
         {
           "name": "Shape 2",
