@@ -89,14 +89,14 @@
     {
       "atomType": "Assembly",
       "name": "Assembly",
-      "x": 0.826058201058201,
-      "y": 0.4094707520891365,
+      "x": 0.8313492063492063,
+      "y": 0.34261838440111425,
       "uniqueID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "gcode-vis-1dd3ecd4",
+            "geometry": "gcode-vis-eb1eb2b0",
             "tags": [],
             "plane": {
               "origin": [
