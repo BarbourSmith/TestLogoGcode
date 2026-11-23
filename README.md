@@ -2,7 +2,13 @@
 
 # TestLogoGcode
 
-![](/project.svg)
+![](/project.png)
+
+## Inputs
+
+- **Wood Thickness** (number)
+- **Router Bit Size (mm)** (number)
+
 
 
 

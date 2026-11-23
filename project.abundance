@@ -1,9 +1,9 @@
 {
   "atomType": "Molecule",
-  "name": "TestLogoGcode",
   "x": 0,
   "y": 0,
   "uniqueID": "f8dee22c-2a7d-4980-86b8-84e1975fa7ea",
+  "name": "TestLogoGcode",
   "ioValues": [
     {
       "name": "Wood Thickness",
@@ -17,168 +17,20 @@
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "Output",
-      "name": "Output",
-      "x": 0.98,
-      "y": 0.5,
-      "uniqueID": "8bc60f85-e6fb-4dae-824a-0d9ae8189539",
-      "ioValues": []
-    },
-    {
       "atomType": "Input",
-      "name": "Wood Thickness",
-      "x": 0.029699999999999997,
-      "y": 0.18,
+      "x": 0.0254,
+      "y": 0.1538,
       "uniqueID": "259bd79d-0c1a-4287-b261-407bf68f5514",
-      "ioValues": [],
-      "type": "number"
-    },
-    {
-      "atomType": "Extrude",
-      "name": "Extrude",
-      "x": 0.53505291005291,
-      "y": 0.44011142061281333,
-      "uniqueID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
-      "ioValues": [
-        {
-          "name": "height",
-          "ioValue": 11
-        }
-      ]
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.6858465608465608,
-      "y": 0.7994428969359332,
-      "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Logo"
-        }
-      ],
-      "partName": "TestLogoGcode",
-      "sortDirection": "Left"
-    },
-    {
-      "atomType": "Input",
-      "name": "Router Bit Size (mm)",
-      "x": 0.029699999999999997,
-      "y": 0.27,
-      "uniqueID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
-      "ioValues": [],
-      "type": "number"
-    },
-    {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.8313492063492063,
-      "y": 0.34261838440111425,
-      "uniqueID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": "gcode-vis-eb1eb2b0",
-            "tags": [],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "bom": [],
-            "dimension": "3D"
-          }
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": "extrude-f56d8848-20-{\"geometry\":\"import-svg-0e9f2754\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[],\"dimension\":\"2D\"}-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-11",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": [],
-                "dimension": "3D"
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "color": "#aad7f2",
-            "tags": [],
-            "bom": []
-          }
-        }
-      ]
+      "name": "Wood Thickness",
+      "type": "number",
+      "options": []
     },
     {
       "atomType": "GitHubMolecule",
-      "name": "Maslow-M",
-      "x": 0.35780423280423285,
-      "y": 0.21727019498607245,
+      "x": 0.3578,
+      "y": 0.2173,
       "uniqueID": "50034168-b3b7-4df2-a2e7-513298d81313",
+      "name": "Maslow-M",
       "ioValues": [
         {
           "name": "Size",
@@ -188,40 +40,35 @@
       "topLevel": false,
       "allAtoms": [
         {
+          "atomType": "Import",
+          "x": 0.3909,
+          "y": 0.7187,
+          "uniqueID": "34219f4e-7377-45a1-8922-bbdbcf208750",
+          "fileName": "MakerCAM Project_copy1.svg",
+          "name": "Import",
+          "type": "SVG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Maslow-M",
+          "SVGwidth": 10
+        },
+        {
           "atomType": "Output",
-          "name": "Output",
           "x": 0.98,
           "y": 0.5,
           "uniqueID": "5c89c470-ecb3-41db-91b7-9f08538ff09b",
-          "ioValues": []
-        },
-        {
-          "atomType": "Input",
-          "name": "Size",
-          "x": 0.029699999999999997,
-          "y": 0.18,
-          "uniqueID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
-          "ioValues": [],
-          "type": "number"
-        },
-        {
-          "atomType": "Import",
-          "name": "Import",
-          "x": 0.39087301587301587,
-          "y": 0.7186629526462396,
-          "uniqueID": "34219f4e-7377-45a1-8922-bbdbcf208750",
-          "ioValues": [],
-          "fileName": "MakerCAM Project_copy1.svg",
-          "type": "SVG",
-          "repoOwner": "BarbourSmith",
-          "repoName": "Maslow-M"
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "GitHubMolecule",
-          "name": "Scale",
-          "x": 0.5601851851851851,
-          "y": 0.5515320334261838,
+          "x": 0.5602,
+          "y": 0.5515,
           "uniqueID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861",
+          "name": "Scale",
           "ioValues": [
             {
               "name": "Scale Factor",
@@ -231,65 +78,69 @@
           "topLevel": false,
           "allAtoms": [
             {
-              "atomType": "Output",
-              "name": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "c37993aa-104b-4710-a5ac-34aec850c933",
-              "ioValues": []
-            },
-            {
-              "atomType": "Input",
-              "name": "Geometry",
-              "x": 0.029699999999999997,
-              "y": 0.18,
-              "uniqueID": "818de59c-fdfa-4b62-94f8-58bab730928d",
-              "ioValues": [],
-              "type": "number"
-            },
-            {
-              "atomType": "Input",
-              "name": "Scale Factor",
-              "x": 0.029699999999999997,
-              "y": 0.27,
-              "uniqueID": "757743ea-ca6c-4874-b73c-9dc24ad63318",
-              "ioValues": [],
-              "type": "number"
-            },
-            {
               "atomType": "Code",
-              "name": "Code",
-              "x": 0.4226190476190476,
-              "y": 0.25139664804469275,
+              "x": 0.4226,
+              "y": 0.2514,
               "uniqueID": "2893255c-8a4b-4571-8c4c-701ecc749648",
               "ioValues": [
+                {
+                  "name": "inputShape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
                 {
                   "name": "scaleFactor",
                   "ioValue": 20
                 }
               ],
-              "codeVersion": 1,
+              "interpreterVersion": 0,
               "code": " \n      //Inputs:[inputShape, scaleFactor]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n      \n      //Takes the address and gets the shape from the library\n      let importedShape = library[inputShape]\n\n      let scaledShape = await Scale(inputShape, scaleFactor);\n      \n      \n      //Shapes stored in the library have tags, a color, a plane, and a bill of materials like this. We don't modify them here\n      let shape1 = {\n        geometry: [scaledShape],\n        tags: importedShape.tags,\n        color: importedShape.color,\n        plane: importedShape.plane,\n        bom: importedShape.bom\n      }\n      \n      return shape1\n      \n      \n      \n          /**\n          To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n          If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n          Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n          https://replicad.xyz/docs/introapp/UserGuide.html \n          Return a replicad object that includes geometry, color, tags and plane. \n      \n      \n          Example Code Atom:\n      \n            Inputs:[shape, x];\n      \n            let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n      \n            return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      \n            - See more examples at _______ \n      \n      \n          */\n      "
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "757743ea-ca6c-4874-b73c-9dc24ad63318",
+              "name": "Scale Factor",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "818de59c-fdfa-4b62-94f8-58bab730928d",
+              "name": "Geometry",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "c37993aa-104b-4710-a5ac-34aec850c933",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
             }
           ],
           "allConnectors": [
             {
-              "ap1Name": "number or geometry",
-              "ap2Name": "inputShape",
-              "ap1ID": "818de59c-fdfa-4b62-94f8-58bab730928d",
-              "ap2ID": "2893255c-8a4b-4571-8c4c-701ecc749648"
+              "ap2Name": "number or geometry",
+              "ap1ID": "2893255c-8a4b-4571-8c4c-701ecc749648",
+              "ap2ID": "c37993aa-104b-4710-a5ac-34aec850c933"
             },
             {
-              "ap1Name": "number or geometry",
               "ap2Name": "scaleFactor",
               "ap1ID": "757743ea-ca6c-4874-b73c-9dc24ad63318",
               "ap2ID": "2893255c-8a4b-4571-8c4c-701ecc749648"
             },
             {
-              "ap1Name": "output",
-              "ap2Name": "number or geometry",
-              "ap1ID": "2893255c-8a4b-4571-8c4c-701ecc749648",
-              "ap2ID": "c37993aa-104b-4710-a5ac-34aec850c933"
+              "ap2Name": "inputShape",
+              "ap1ID": "818de59c-fdfa-4b62-94f8-58bab730928d",
+              "ap2ID": "2893255c-8a4b-4571-8c4c-701ecc749648"
             }
           ],
           "parentRepo": {
@@ -314,28 +165,33 @@
             "isLocal": false
           },
           "unitsKey": "Unitless",
-          "fileTypeVersion": 1,
-          "compiledBom": []
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.1538,
+          "uniqueID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
+          "name": "Size",
+          "type": "number",
+          "options": []
         }
       ],
       "allConnectors": [
         {
-          "ap1Name": "number or geometry",
-          "ap2Name": "Scale Factor",
-          "ap1ID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
-          "ap2ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861"
-        },
-        {
-          "ap1Name": "output",
           "ap2Name": "Geometry",
           "ap1ID": "34219f4e-7377-45a1-8922-bbdbcf208750",
           "ap2ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861"
         },
         {
-          "ap1Name": "geometry or number",
           "ap2Name": "number or geometry",
           "ap1ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861",
           "ap2ID": "5c89c470-ecb3-41db-91b7-9f08538ff09b"
+        },
+        {
+          "ap2Name": "Scale Factor",
+          "ap1ID": "b91c0506-ccc4-4811-88a4-c58164e8a7dd",
+          "ap2ID": "7d4463f4-cef2-49bc-9f41-349fdbf2b861"
         }
       ],
       "parentRepo": {
@@ -367,56 +223,134 @@
         "isLocal": false
       },
       "unitsKey": "MM",
-      "fileTypeVersion": 1,
-      "compiledBom": []
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.6858,
+      "y": 0.8056,
+      "uniqueID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Logo",
+          "currentEquation": "TestLogoGcode"
+        }
+      ],
+      "partName": "TestLogoGcode",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "8bc60f85-e6fb-4dae-824a-0d9ae8189539",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5351,
+      "y": 0.4401,
+      "uniqueID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 11
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8313,
+      "y": 0.3426,
+      "uniqueID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
+      "ioValues": [
+        {
+          "name": "makeDisjoint",
+          "ioValue": true
+        },
+        {
+          "name": "Shape 1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.0254,
+      "y": 0.2462,
+      "uniqueID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
+      "name": "Router Bit Size (mm)",
+      "type": "number",
+      "options": []
     }
   ],
   "allConnectors": [
     {
-      "ap1Name": "number or geometry",
       "ap2Name": "height",
       "ap1ID": "259bd79d-0c1a-4287-b261-407bf68f5514",
       "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
     },
     {
-      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "50034168-b3b7-4df2-a2e7-513298d81313",
+      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
       "ap2ID": "7b7c4b82-2058-4386-84cc-709bf16334d4"
     },
     {
-      "ap1Name": "geometry",
       "ap2Name": "Shape 2",
       "ap1ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050",
       "ap2ID": "9aa1f917-082d-4bb4-9f2f-a164301d2146"
     },
     {
-      "ap1Name": "output",
-      "ap2Name": "Shape 1",
-      "ap1ID": "7b7c4b82-2058-4386-84cc-709bf16334d4",
-      "ap2ID": "9aa1f917-082d-4bb4-9f2f-a164301d2146"
-    },
-    {
-      "ap1Name": "number or geometry",
-      "ap2Name": "Tool Size",
-      "ap1ID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
-      "ap2ID": "7b7c4b82-2058-4386-84cc-709bf16334d4"
-    },
-    {
-      "ap1Name": "geometry",
       "ap2Name": "number or geometry",
       "ap1ID": "9aa1f917-082d-4bb4-9f2f-a164301d2146",
       "ap2ID": "8bc60f85-e6fb-4dae-824a-0d9ae8189539"
     },
     {
-      "ap1Name": "geometry or number",
-      "ap2Name": "geometry",
-      "ap1ID": "50034168-b3b7-4df2-a2e7-513298d81313",
-      "ap2ID": "98ec1d00-f0b9-4d5e-adac-8d4441ac2050"
+      "ap2Name": "Tool Size",
+      "ap1ID": "c3ef3c55-1b28-498b-8e46-fa04e4af7830",
+      "ap2ID": "7b7c4b82-2058-4386-84cc-709bf16334d4"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": [],
   "filetypeVersion": 1
 }
